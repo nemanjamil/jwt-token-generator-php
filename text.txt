@@ -1,0 +1,4 @@
+https://www.dyclassroom.com/json-web-tokens/jwt-project-firebase-php-jwt-generating-jwt
+https://tools.ietf.org/html/rfc7519#section-4.1
+https://stackoverflow.com/questions/50251963/firebase-jwt-token-is-reusable-for-same-user-untill-token-is-expired
+https://www.jsonwebtoken.io/

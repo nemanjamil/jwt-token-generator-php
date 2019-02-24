@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <title>TEMS Token Generator</title>
+  </head>
+  <body>
+  <div class="row">
+  <div class="col-sm-2"></div>
+  <div class="col-sm-8">
+
+    <form action="generateToken.php" method="get">
+  <div class="form-group">
+    <label for="text">firstname</label>
+    <input type="text" class="form-control" name="firstname" value="Rob">
+	<label for="text">lastname</label>
+    <input type="text" class="form-control" name="lastname" value="Mülla">
+	<label for="number">uid (matriculation number)</label>
+    <input type="number" class="form-control" name="uid" value="9900">
+	<label for="number">tokenvalidfor (seconds) e.g 86400 -> 24 h or 3600 -> 1 h</label>
+    <input type="number" class="form-control" name="tokenvalidfor" value="3600">	
+	<label for="number">examid</label>
+    <input type="number" class="form-control" name="examid" value="131313">
+	<label for="number">eventid</label>
+    <input type="number" class="form-control" name="eventid" value="321">
+	<label for="number">examvalidfor (seconds)3600 -> 1 h</label>
+    <input type="number" class="form-control" name="examvalidfor" value="3600">
+  </div>
+  
+  <button formtarget="_blank" type="submit" class="btn btn-default">Generate</button> 
+</form> 
+</div>
+  <div class="col-sm-2"></div>
+  </body>
+</html>
