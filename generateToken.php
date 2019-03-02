@@ -9,6 +9,7 @@ $token['Participant_Lastname'] = $_GET['Participant_Lastname'];
 
 $token['ExamVersion_EXTERNAL_ID'] = $_GET['ExamVersion_EXTERNAL_ID'];
 $token['BulkEvent_EXTERNAL_ID'] = $_GET['BulkEvent_EXTERNAL_ID'];
+$token['fe_endpoint'] = $_GET['fe_endpoint'];
 
 $token['ExamVersion_plannedDuration'] = $_GET['ExamVersion_plannedDuration'];
 
