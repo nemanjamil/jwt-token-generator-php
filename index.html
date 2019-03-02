@@ -17,39 +17,40 @@
 
         <form action="generateToken.php" method="get">
             <div class="form-group">
-                <label for="text">Participant Firstname</label>
-                <input type="text" class="form-control" name="Participant_Firstname" value="">
+                <label for="Participant_Firstname">Participant Firstname</label>
+                <input type="text" class="form-control" id="Participant_Firstname" name="Participant_Firstname" value="">
 
-                <label for="text">Participant Lastname</label>
-                <input type="text" class="form-control" name="Participant_Lastname" value="">
+                <label for="Participant_Lastname">Participant Lastname</label>
+                <input type="text" class="form-control" id="Participant_Lastname" name="Participant_Lastname" value="">
 
-                <label for="number">Participant EXTERNAL ID</label>
-                <input type="number" class="form-control" name="Participant_EXTERNAL_ID" value="">
+                <label for="Participant_EXTERNAL_ID">Participant EXTERNAL ID</label>
+                <input type="number" class="form-control" id="Participant_EXTERNAL_ID" name="Participant_EXTERNAL_ID" value="">
 
-                <label for="number">ExamVersion EXTERNAL ID</label>
-                <input type="number" class="form-control" name="ExamVersion_EXTERNAL_ID" value="99293945">
+                <label for="ExamVersion_EXTERNAL_ID">ExamVersion EXTERNAL ID</label>
+                <input type="number" class="form-control" id="ExamVersion_EXTERNAL_ID" name="ExamVersion_EXTERNAL_ID" value="99293945">
 
-                <label for="number">ExamVersion planned Duration (minutes)</label>
-                <input type="number" class="form-control" name="ExamVersion_plannedDuration" value="45">
+                <label for="ExamVersion_plannedDuration">ExamVersion planned Duration (minutes)</label>
+                <input type="number" class="form-control" id="ExamVersion_plannedDuration" name="ExamVersion_plannedDuration" value="45">
 
-                <label for="number">Front End - endpoint</label>
-                <input type="number" class="form-control" name="fe_endpoint" value="http://localhost:3000">
+                <label for="fe_endpoint">Front End - endpoint</label>
+                <input type="number" class="form-control" id="fe_endpoint" name="fe_endpoint" value="http://localhost:3000">
 
-                <label for="number">BulkEvent EXTERNAL ID</label>
-                <input type="number" class="form-control" name="BulkEvent_EXTERNAL_ID" value="">
+                <label for="BulkEvent_EXTERNAL_ID">BulkEvent EXTERNAL ID</label>
+                <input type="number" class="form-control" id="BulkEvent_EXTERNAL_ID" name="BulkEvent_EXTERNAL_ID" value="">
 
-                <label for="checkbox">Participant_Expert</label>
-                <input type="checkbox" class="form-control" name="Participant_Expert" value="FALSE">
+                <label for="Participant_Expert">Participant_Expert</label>
+                <input type="checkbox" class="form-control" id="Participant_Expert" name="Participant_Expert" value="FALSE">
                 <hr/>
 
-                <label for="number">tokenvalidfor (days)</label>
-                <input type="number" class="form-control" name="tokenvalidfor" value="7">
+                <label for="tokenvalidfor">tokenvalidfor (days)</label>
+                <input type="number" class="form-control" id="tokenvalidfor" name="tokenvalidfor" value="7">
             </div>
 
             <button formtarget="_blank" type="submit" class="btn btn-default">Generate</button>
         </form>
     </div>
     <div class="col-sm-2"></div>
+</div>
 </body>
 </html>
 <!---->
