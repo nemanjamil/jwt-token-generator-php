@@ -41,4 +41,7 @@ echo '</br></br>VALIDATE BODY</br></br>';
 $decoded = JWT::decode($encodeToken, $secret_key, array('HS256'));
 $decoded_array = (array) $decoded;
 var_dump($decoded_array);
+
+echo '</br></br>';
+echo $encodeToken;
 ?>
