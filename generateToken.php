@@ -11,7 +11,7 @@ $token['Participant_Firstname'] = $_GET['Participant_Firstname'];
 $token['Participant_Lastname'] = $_GET['Participant_Lastname'];
 $token['ExamVersion_EXTERNAL_ID'] = $_GET['ExamVersion_EXTERNAL_ID'];
 $token['BulkEvent_EXTERNAL_ID'] = $_GET['BulkEvent_EXTERNAL_ID'];
-$token['Photo_Time_Imterval'] = $_GET['Photo_Time_Imterval'];
+$token['Photo_Time_Interval'] = $_GET['Photo_Time_Interval'];
 $token['fe_endpoint'] = $_GET['fe_endpoint'];
 $token['ExamVersion_plannedDuration'] = $_GET['ExamVersion_plannedDuration'];
 $token['tokenvalidfor'] = time() + $_GET['tokenvalidfor'] * 86400; // e.g 7 days -> 7 * 86400  = 604800
